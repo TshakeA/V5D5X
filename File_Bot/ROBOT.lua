@@ -366,6 +366,23 @@ send(msg.chat_id_,msg.id_, ' هنا فقلبي..😹♥️')
 return false
 end
 
+  if text == 'جلب التوكن' or text == ' التوكن' then
+
+local my_ph = bot_data:get(ban_id.."my_GHoeq2:status"..msg.chat_id_)
+
+if not my_ph then
+
+send(msg.chat_id_, msg.id_,"  ") 
+
+return false  
+
+end
+
+send(msg.chat_id_,msg.id_, ' هذا الامر خاص بروبوت فقط') 
+
+return false
+
+end
 if text == 'اوف' or text == 'يوه' then
 local my_ph = bot_data:get(ban_id.."my_GHoeq2:status"..msg.chat_id_)
 if not my_ph then

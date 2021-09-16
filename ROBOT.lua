@@ -152,7 +152,7 @@ print([[
 ----------------------------------------------------------------------------------------------                                                                           
 > DEV ||  『@ggi55』
 ~> id ||  1965223041
-~> stast || المبرمج روبوت 🏋️🥺
+~> stast || مطور السورس 🏋️🥺
 ~> b𝐼𝑂 ||  「مش مهم تحبني ،بس متكرهنيش」
 ~> › • تم التعديل والبرمجه بواسطه روبوت
 ]])
@@ -370,7 +370,7 @@ return var
 end 
 function Rutba(user_id,chat_id)
 if tonumber(user_id) == tonumber(1965223041) then  
-var = 'المبرمج روبوت🏋️🥺'
+var = 'مطور السورس🏋️🥺'
 elseif tonumber(user_id) == tonumber(1634560089) then
 var = 'المبرمج تويتي🌚😹'
 elseif tonumber(user_id) == tonumber(1965223041) then
@@ -2061,7 +2061,7 @@ end
 if text == 'روبوت مبرمج السورس' and Devban(msg) then
 bot_data:del(ban_id..'Srt:Bot') 
 local Text = [[ 
-『المبرمج روبوت لو حابب تتواصل معاه
+『مطور السورس لو حابب تتواصل معاه
 اتبع الزر إلى تحت ↓』
 ]] 
 keyboard = {}  
@@ -6194,7 +6194,7 @@ ban = math.random(8,16);
 local Text ='• 𝚁𝙾𝙱𝙾𝚃 𝙳𝙴𝙿𝚁𝙴𝚂𝚂𝙴𝙳 ' 
 keyboard = {}  
 keyboard.inline_keyboard = {
-{{text = '𝚁.𝙾𝙱𝙾𝙾𝚃',url="t.me/ggi55"}},
+{{text = 'Armando | ☪︎',url="t.me/ggi55"}},
 {{text = '• ااخواتي', callback_data="/gqjik"},{text = '• البارات', callback_data="/banfai"}},  
 {{text =  '• ᗰᏒᗩƬ 𝙍𝙊𝘽𝙊𝙏 || وحيده)',url="t.me/x5_YU"}},
 }
@@ -6207,7 +6207,7 @@ ban = math.random(8,16);
 local Text ='• 𝚁𝙾𝙱𝙾𝚃 𝙳𝙴𝙿𝚁𝙴𝚂𝚂𝙴𝙳 ' 
 keyboard = {}  
 keyboard.inline_keyboard = {
-{{text = '𝚁.𝙾𝙱𝙾𝙾𝚃',url="t.me/ggi55"}},
+{{text = 'Armando | ☪︎',url="t.me/ggi55"}},
 {{text = '• ااخواتي', callback_data="/gqjik"},{text = '• البارات', callback_data="/banfai"}},  
 {{text =  '• ᗰᏒᗩƬ 𝙍𝙊𝘽𝙊𝙏 || وحيده)',url="t.me/x5_YU"}},
 }
@@ -6220,7 +6220,7 @@ ban = math.random(8,16);
 local Text ='• 𝚁𝙾𝙱𝙾𝚃 𝙳𝙴𝙿𝚁𝙴𝚂𝚂𝙴𝙳 ' 
 keyboard = {}  
 keyboard.inline_keyboard = {
-{{text = '𝚁.𝙾𝙱𝙾𝙾𝚃',url="t.me/ggi55"}},
+{{text = 'Armando | ☪︎',url="t.me/ggi55"}},
 {{text = '• ااخواتي', callback_data="/gqjik"},{text = '• البارات', callback_data="/banfai"}},  
 {{text =  '• ᗰᏒᗩƬ 𝙍𝙊𝘽𝙊𝙏 || وحيده)',url="t.me/x5_YU"}},
 }
@@ -8035,7 +8035,7 @@ end
 if #list == 0 then
 t = "•  لا يوجد مطورين"
  Banda = {
-{{text = '𝙱𝙰𝙲𝙺', callback_data="/bnada-yquio"}},
+{{text = 'Back', callback_data="/bnada-yquio"}},
 }
 send_inlin_key(msg.chat_id_,t,Banda,msg.id_)
 end
@@ -17294,7 +17294,7 @@ keyboard.inline_keyboard = {
 {text = 'تفعيل ردود السورس', callback_data="/lockreb"},{text = 'تعطيل ردود السورس', callback_data="/opareb"},
 },
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 {
 {text = 'اخفاء الاوامر', callback_data="/hide"},
@@ -17351,7 +17351,7 @@ Mobile moving
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help90"},
+{text = 'Back', callback_data="/help90"},
 },
 {
 {text = 'اخفاء الاوامر', callback_data="/hide"},
@@ -17405,7 +17405,7 @@ local Teext =[[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help90"},
+{text = 'Back', callback_data="/help90"},
 },
 {
 {text = 'اخفاء الاوامر', callback_data="/hide"},
@@ -17461,7 +17461,7 @@ local Teext =[[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help90"},
+{text = 'Back', callback_data="/help90"},
 },
 {
 {text = 'اخفاء الاوامر', callback_data="/hide"},
@@ -17546,7 +17546,7 @@ local Teext =[[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 {
 {text = 'اخفاء الاوامر', callback_data="/hide"},
@@ -17588,7 +17588,7 @@ local Teext =[[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 {
 {text = 'اخفاء الاوامر', callback_data="/hide"},
@@ -17749,7 +17749,7 @@ local Teext =[[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help90"},
+{text = 'Back', callback_data="/help90"},
 },
 {
 {text = 'اخفاء الاوامر', callback_data="/hide"},
@@ -17795,7 +17795,7 @@ local Teext =[[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help90"},
+{text = 'Back', callback_data="/help90"},
 },
 {
 {text = 'اخفاء الاوامر', callback_data="/hide"},
@@ -18786,7 +18786,7 @@ keyboard.inline_keyboard = {
 {text =  '𝚃. 𝚆𝙴𝚃𝚈',url="t.me/iiiziiii"},{text =  '𝚂𝙰𝙳 ',url="t.me/DiiiVi"},
 },
 {
-{text =  '𝚁.𝙾𝙱𝙾𝙾𝚃',url="t.me/ggi55"},
+{text =  'Armando | ☪︎',url="t.me/ggi55"},
 },
 {
 {text = 'عودة»', callback_data="/bvtrh"},
@@ -18807,7 +18807,7 @@ keyboard.inline_keyboard = {
 {text =  '𝚃. 𝚆𝙴𝚃𝚈',url="t.me/iiiziiii"},{text =  '𝚂𝙰𝙳 ',url="t.me/DiiiVi"},
 },
 {
-{text = '𝚁.𝙾𝙱𝙾𝙾𝚃', callback_data="/bnada-yquio3"}
+{text = 'Armando | ☪︎', callback_data="/bnada-yquio3"}
 },
 {
 {text = 'عودة»', callback_data="/bvtrh"},
@@ -18855,7 +18855,7 @@ keyboard = {}
 keyboard.inline_keyboard = {
 {{text = '• 𝚂𝙰𝙳',url="t.me/DiiiVi"},{text = '• ʀᴏʙᴏᴛ', url="t.me/ggi55"}},
 {{text = '𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁𝚂 ',url="t.me/ggi55"}}, 
-{{text = '𝙱𝙰𝙲𝙺', callback_data="/change-hhh"}},
+{{text = 'Back', callback_data="/change-hhh"}},
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessagecaption?chat_id='..Chat_id..'&caption='..URL.escape(Teext)..'&message_id='..msg_idd..'&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
 end
@@ -18871,7 +18871,7 @@ keyboard = {}
 keyboard.inline_keyboard = {
 {{text = 'المبرمج روبت', url="t.me/ggi55"}},
 {{text = 'تواصل السورس',url="t.me/ggi55"}}, 
-{{text = '𝙱𝙰𝙲𝙺', callback_data="/change-hhh"}},
+{{text = 'Back', callback_data="/change-hhh"}},
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessagecaption?chat_id='..Chat_id..'&caption='..URL.escape(Teext)..'&message_id='..msg_idd..'&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
 end
@@ -18892,7 +18892,7 @@ keyboard = {}
 keyboard.inline_keyboard = {
 {{text = 'SourceDev', url="t.me/rnnni"}},
 {{text = 'تواصل السورس',url="t.me/ggi55"}}, 
-{{text = '𝙱𝙰𝙲𝙺', callback_data="/change-hhh"}},
+{{text = 'Back', callback_data="/change-hhh"}},
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessagecaption?chat_id='..Chat_id..'&caption='..URL.escape(Teext)..'&message_id='..msg_idd..'&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
 end
@@ -18943,7 +18943,7 @@ local Teext =[[
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text =  '𝚁.𝙾𝙱𝙾𝙾𝚃 ',url="t.me/ggi55"}},
+{{text =  'Armando | ☪︎ ',url="t.me/ggi55"}},
 {{text =' • اخواتي' , callback_data="/gqjik"},{text = '• البارات ', callback_data="/banfai"}},  
 {{text =  '• ᗰᏒᗩƬ 𝙍𝙊𝘽𝙊𝙏 || وحيده)',url="t.me/x5_YU"}},
 }
@@ -18956,10 +18956,10 @@ local Teext =[[
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text =  '𝚁.𝙾𝙱𝙾𝙾𝚃 ',url="t.me/ggi55"}},
+{{text =  'Armando | ☪︎ ',url="t.me/ggi55"}},
 {{text =' • اخواتي' , callback_data="/gqjik"},{text = '• البارات ', callback_data="/banfai"}},  
 {{text =  '• ᗰᏒᗩƬ 𝙍𝙊𝘽𝙊𝙏 || وحيده)',url="t.me/x5_YU"}},
-{{text = '𝙱𝙰𝙲𝙺', callback_data="/add532"}},
+{{text = 'Back', callback_data="/add532"}},
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessagecaption?chat_id='..Chat_id..'&caption='..URL.escape(Teext)..'&message_id='..msg_idd..'&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
 end
@@ -18970,7 +18970,7 @@ local Teext =[[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {{text = 'Ᏼ.Ꭺ.Ꭱ▷ℛ᥆Ⴆ᥆ƚ',url="t.me/T_elgram"}},
-{{text = '𝙱𝙰𝙲𝙺', callback_data="/bnada-yquio"}},
+{{text = 'Back', callback_data="/bnada-yquio"}},
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessagecaption?chat_id='..Chat_id..'&caption='..URL.escape(Teext)..'&message_id='..msg_idd..'&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
 end
@@ -19071,7 +19071,7 @@ keyboard.inline_keyboard = {
 {{text =' • هلوسه' , callback_data="/amar6"},{text = '• ترام ', callback_data="/amar7"}},  
 {{text =' • اخر عازف' , callback_data="/amar8"},{text = '• مسوخ ', callback_data="/amar9"}},  
 {{text = 'SourceDev', url="t.me/rnnni"}},
-{{text = '𝙱𝙰𝙲𝙺', callback_data="/masryy0"}},
+{{text = 'Back', callback_data="/masryy0"}},
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessagecaption?chat_id='..Chat_id..'&caption='..URL.escape(Teext)..'&message_id='..msg_idd..'&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
 end
@@ -19088,7 +19088,7 @@ keyboard.inline_keyboard = {
 {{text =' • كسرت جناحي' , callback_data="/norrrr9"},{text = '• انتي', callback_data="/norrrr10"}},  
 {{text =' • انسيني' , callback_data="/norrrr11"},{text = '• حبيتك انا', callback_data="/norrrr12"}},  
 {{text = 'SourceDev', url="t.me/rnnni"}},
-{{text = '𝙱𝙰𝙲𝙺', callback_data="/masryy0"}},
+{{text = 'Back', callback_data="/masryy0"}},
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessagecaption?chat_id='..Chat_id..'&caption='..URL.escape(Teext)..'&message_id='..msg_idd..'&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
 end
@@ -19102,7 +19102,7 @@ keyboard.inline_keyboard = {
 {{text = '• ˹𝙈𝙮 𝘽𝙧𝙤𝙩𝙝𝙚𝙧 ˼ 🧸 .',url="t.me/iiiziiii"}},
 {{text = '• ˹𝙈𝙮 𝙎𝙖𝙣˼ 🧸 .',url="t.me/DiiiVi"}},
 {{text = '• ˹𝗺𝘆 𝗵𝗲𝗮𝗿𝘁˼ 💛.',url="t.me/olav138"}},
-{{text = '𝙱𝙰𝙲𝙺', callback_data="/bnada-yquio"}},
+{{text = 'Back', callback_data="/bnada-yquio"}},
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessagecaption?chat_id='..Chat_id..'&caption='..URL.escape(Teext)..'&message_id='..msg_idd..'&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
 end
@@ -19115,7 +19115,7 @@ keyboard.inline_keyboard = {
 {{text = '• ˹𝙈𝙮 𝘽𝙧𝙤𝙩𝙝𝙚𝙧 ˼ 🧸 .',url="t.me/iiiziiii"}},
 {{text = '• ˹𝙈𝙮 𝙎𝙖𝙣˼ 🧸 .',url="t.me/DiiiVi"}},
 {{text = '• ˹𝗺𝘆 𝗵𝗲𝗮𝗿𝘁˼ 💛.',url="t.me/olav138"}},
-{{text = '𝙱𝙰𝙲𝙺', callback_data="/add532"}},
+{{text = 'Back', callback_data="/add532"}},
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessagecaption?chat_id='..Chat_id..'&caption='..URL.escape(Teext)..'&message_id='..msg_idd..'&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
 end
@@ -19139,7 +19139,7 @@ local Teext =[[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {{text = 'مطور البوت', url="http://t.me/"..sudos.UserName}},
-{{text = '𝙱𝙰𝙲𝙺', callback_data="/gqjik4"}},
+{{text = 'Back', callback_data="/gqjik4"}},
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessagecaption?chat_id='..Chat_id..'&caption='..URL.escape(Teext)..'&message_id='..msg_idd..'&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
 end
@@ -19168,7 +19168,7 @@ local Teext =[[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {{text = 'مطور البوت', url="http://t.me/"..sudos.UserName}},
-{{text = '𝙱𝙰𝙲𝙺', callback_data="/gqjik4"}},
+{{text = 'Back', callback_data="/gqjik4"}},
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessagecaption?chat_id='..Chat_id..'&caption='..URL.escape(Teext)..'&message_id='..msg_idd..'&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
 end
@@ -19182,7 +19182,7 @@ keyboard.inline_keyboard = {
 {{text = '• 𝙼𝚈 𝙱𝚁𝙾𝚃𝙷𝙴𝚁✅🙄',url="t.me/ggi55"}},
 {{text = '• 𝙼𝚈 𝚂𝙸𝚂😹🏋️',url="t.me/soso_1589"}},
 {{text = '• 𝙼𝚈 𝚂𝙸𝚂🥺👅',url="t.me/iiiziiii"}},
-{{text = '𝙱𝙰𝙲𝙺', callback_data="/bbbbbbbb"}},
+{{text = 'Back', callback_data="/bbbbbbbb"}},
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessagecaption?chat_id='..Chat_id..'&caption='..URL.escape(Teext)..'&message_id='..msg_idd..'&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
 end
@@ -19196,7 +19196,7 @@ keyboard.inline_keyboard = {
 {{text = '• 𝙼𝚈 𝙱𝚁𝙾𝚃𝙷𝙴𝚁✅🙄',url="t.me/ggi55"}},
 {{text = '• 𝙼𝚈 𝚂𝙸𝚂😹🏋️',url="t.me/soso_1589"}},
 {{text = '• 𝙼𝚈 𝚂𝙸𝚂🥺👅',url="t.me/iiiziiii"}},
-{{text = '𝙱𝙰𝙲𝙺', callback_data="/add532"}},
+{{text = 'Back', callback_data="/add532"}},
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessagecaption?chat_id='..Chat_id..'&caption='..URL.escape(Teext)..'&message_id='..msg_idd..'&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
 end
@@ -19207,7 +19207,7 @@ local Teext =[[
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text =   '• 𝚁.𝙾𝙱𝙾𝙾𝚃 ' ,url="t.me/ggi55"},{text =  '• 𝚂𝙰𝙳  ', url="t.me/DiiiVi"}},
+{{text =   '• Armando | ☪︎ ' ,url="t.me/ggi55"},{text =  '• 𝚂𝙰𝙳  ', url="t.me/DiiiVi"}},
 {{text =   '• 𝚃. 𝚆𝙴𝚃𝚈 ' ,url="t.me/iiiziiii"},{text =  '• 𝚈𝚄𝙾𝚂𝚂𝙴𝙵 ' , url="t.me/iiiziiii"}},
 {text = 'عودة»', callback_data="/bvtrh"},
 }
@@ -19242,7 +19242,7 @@ keyboard.inline_keyboard = {
 {{text = '• ＭＹ ＬＯＶＥ❤️🥺',url="t.me/olav138"}},
 {{text = '• ＭＹ ＳＯＮ❤️🥺',url="t.me/DiiiVi"}},
 {{text = '• ＭＹ ＢＲＯＴＨＥＲ❤️🥺',url="t.me/ggi55"}},
-{{text = '𝙱𝙰𝙲𝙺', callback_data="/bbbbbbbb2"}},
+{{text = 'Back', callback_data="/bbbbbbbb2"}},
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessagecaption?chat_id='..Chat_id..'&caption='..URL.escape(Teext)..'&message_id='..msg_idd..'&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
 end
@@ -19255,7 +19255,7 @@ keyboard.inline_keyboard = {
 {{text = '• ＭＹ ＬＯＶＥ❤️🥺',url="t.me/olav138"}},
 {{text = '• ＭＹ ＳＯＮ❤️🥺',url="t.me/DiiiVi"}},
 {{text = '• ＭＹ ＢＲＯＴＨＥＲ❤️🥺',url="t.me/ggi55"}},
-{{text = '𝙱𝙰𝙲𝙺', callback_data="/add532"}},
+{{text = 'Back', callback_data="/add532"}},
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessagecaption?chat_id='..Chat_id..'&caption='..URL.escape(Teext)..'&message_id='..msg_idd..'&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
 end
@@ -19278,9 +19278,9 @@ local Teext =[[
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚁𝚁𝙾𝚁¹',url="t.me/rnnni"},{text = '𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚁𝚁𝙾𝚁²', url="t.me/rnnni"}},
+{{text = 'Source Dev¹',url="t.me/rnnni"},{text = 'Source Dev²', url="t.me/rnnni"}},
 {{text = '𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁𝚂',url="t.me/ggi55"}}, 
-{{text = '𝙱𝙰𝙲𝙺', callback_data="/HHH"}},
+{{text = 'Back', callback_data="/HHH"}},
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessagecaption?chat_id='..Chat_id..'&caption='..URL.escape(Teext)..'&message_id='..msg_idd..'&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
 end
@@ -19290,9 +19290,9 @@ local Teext =[[
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '• 𝚁.𝙾𝙱𝙾𝙾𝚃 ',url="t.me/ggi55"},{text = '• 𝚂𝙰𝙳' , url="t.me/DiiiVi"}},
+{{text = '• Armando | ☪︎ ',url="t.me/ggi55"},{text = '• 𝚂𝙰𝙳' , url="t.me/DiiiVi"}},
 {{text =  '• 𝚃. 𝚆𝙴𝚃𝚈 ',url="t.me/iiiziiii"},{text =  '• 𝚈𝚄𝙾𝚂𝚂𝙴𝙵 ', url="t.me/iiiziiii"}},
-{{text = '𝙱𝙰𝙲𝙺', callback_data="/HHH"}},
+{{text = 'Back', callback_data="/HHH"}},
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessagecaption?chat_id='..Chat_id..'&caption='..URL.escape(Teext)..'&message_id='..msg_idd..'&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
 end
@@ -19325,7 +19325,7 @@ keyboard = {}
 keyboard.inline_keyboard = {
 {{text = 'Depression || اكتئاب',url="t.me/Depressiion_D"},{text = 'فضفضةة || He opened it',url="t.me/rnnni"}},
 {{text = '𝐒𝐎𝐔𝐑𝐂𝐄 𝐒𝐏𝐎𝐍𝐆𝐄𝐁𝐎𝐁',url="t.me/rnnni"}},
-{{text = ' 𝙱𝙰𝙲𝙺', callback_data="/bnada-yquio"}},
+{{text = ' Back', callback_data="/bnada-yquio"}},
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessagecaption?chat_id='..Chat_id..'&caption='..URL.escape(Teext)..'&message_id='..msg_idd..'&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
 end
@@ -19355,7 +19355,7 @@ local Teext =[[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/zDRGd"},
+{text = 'Back', callback_data="/zDRGd"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessagecaption?chat_id='..Chat_id..'&caption='..URL.escape(Teext)..'&message_id='..msg_idd..'&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -19372,7 +19372,7 @@ local Teext =[[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/zDRGd"},
+{text = 'Back', callback_data="/zDRGd"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessagecaption?chat_id='..Chat_id..'&caption='..URL.escape(Teext)..'&message_id='..msg_idd..'&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -19403,7 +19403,7 @@ local Teext =[[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/zDRGd"},
+{text = 'Back', callback_data="/zDRGd"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessagecaption?chat_id='..Chat_id..'&caption='..URL.escape(Teext)..'&message_id='..msg_idd..'&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -19433,7 +19433,7 @@ local Teext =[[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/zDRGd"},
+{text = 'Back', callback_data="/zDRGd"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessagecaption?chat_id='..Chat_id..'&caption='..URL.escape(Teext)..'&message_id='..msg_idd..'&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -19465,7 +19465,7 @@ local Teext =[[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/zDRGd"},
+{text = 'Back', callback_data="/zDRGd"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessagecaption?chat_id='..Chat_id..'&caption='..URL.escape(Teext)..'&message_id='..msg_idd..'&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -19494,7 +19494,7 @@ local Teext =[[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/zDRGd"},
+{text = 'Back', callback_data="/zDRGd"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessagecaption?chat_id='..Chat_id..'&caption='..URL.escape(Teext)..'&message_id='..msg_idd..'&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -19526,7 +19526,7 @@ local Teext =[[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/zDRGd"},
+{text = 'Back', callback_data="/zDRGd"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessagecaption?chat_id='..Chat_id..'&caption='..URL.escape(Teext)..'&message_id='..msg_idd..'&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -19557,7 +19557,7 @@ local Teext =[[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/zDRGd"},
+{text = 'Back', callback_data="/zDRGd"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessagecaption?chat_id='..Chat_id..'&caption='..URL.escape(Teext)..'&message_id='..msg_idd..'&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -19585,7 +19585,7 @@ local Teext =[[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/zDRGd"},
+{text = 'Back', callback_data="/zDRGd"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessagecaption?chat_id='..Chat_id..'&caption='..URL.escape(Teext)..'&message_id='..msg_idd..'&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -19614,7 +19614,7 @@ local Teext =[[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/zDRGd"},
+{text = 'Back', callback_data="/zDRGd"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessagecaption?chat_id='..Chat_id..'&caption='..URL.escape(Teext)..'&message_id='..msg_idd..'&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -19641,7 +19641,7 @@ local Teext =[[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/zDRGd"},
+{text = 'Back', callback_data="/zDRGd"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessagecaption?chat_id='..Chat_id..'&caption='..URL.escape(Teext)..'&message_id='..msg_idd..'&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -19672,7 +19672,7 @@ local Teext =[[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/zDRGd"},
+{text = 'Back', callback_data="/zDRGd"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessagecaption?chat_id='..Chat_id..'&caption='..URL.escape(Teext)..'&message_id='..msg_idd..'&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -19696,7 +19696,7 @@ local Teext =[[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/zDRGd"},
+{text = 'Back', callback_data="/zDRGd"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessagecaption?chat_id='..Chat_id..'&caption='..URL.escape(Teext)..'&message_id='..msg_idd..'&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -19731,7 +19731,7 @@ keyboard.inline_keyboard = {
 {text = 'SourceDev', url="t.me/rnnni"}
 }, 
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/blakrr"}
+{text = 'Back', callback_data="/blakrr"}
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessagecaption?chat_id='..Chat_id..'&caption='..URL.escape(Teext)..'&message_id='..msg_idd..'&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -19748,7 +19748,7 @@ bot_data:set(ban_id.."Chek:Welcome"..Chat_id,true)
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -19764,7 +19764,7 @@ bot_data:del(ban_id.."Chek:Welcome"..Chat_id)
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -19780,7 +19780,7 @@ bot_data:set(ban_id.."CAPTCHA"..Chat_id,true)
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -19813,7 +19813,7 @@ bot_data:set(ban_id.."my_GHoeq2:status"..Chat_id,true)
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -19829,7 +19829,7 @@ bot_data:del(ban_id.."my_GHoeq2:status"..Chat_id)
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -19845,7 +19845,7 @@ bot_data:set(ban_id.."DRG:age_Bots"..Chat_id,true)
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -19861,7 +19861,7 @@ bot_data:del(ban_id.."DRG:age_Bots"..Chat_id)
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -19877,7 +19877,7 @@ bot_data:set(ban_id.."pp_photo:status"..Chat_id,true)
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -19893,7 +19893,7 @@ bot_data:del(ban_id.."pp_photo:status"..Chat_id)
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -19909,7 +19909,7 @@ bot_data:set(ban_id.."Cick:rjo"..Chat_id,true)
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -19925,7 +19925,7 @@ bot_data:del(ban_id.."Cick:rjo"..Chat_id)
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -19941,7 +19941,7 @@ bot_data:set(ban_id.."Cick:lov"..Chat_id,true)
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -19957,7 +19957,7 @@ bot_data:del(ban_id.."Cick:lov"..Chat_id)
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -19973,7 +19973,7 @@ bot_data:set(ban_id.."Cick:ano"..Chat_id,true)
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -19989,7 +19989,7 @@ bot_data:del(ban_id.."Cick:ano"..Chat_id)
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -20005,7 +20005,7 @@ bot_data:set(ban_id.."Cick:krh"..Chat_id,true)
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -20021,7 +20021,7 @@ bot_data:del(ban_id.."Cick:krh"..Chat_id)
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -20037,7 +20037,7 @@ bot_data:set(ban_id.."Bot:Id"..Chat_id,true)
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -20053,7 +20053,7 @@ bot_data:del(ban_id.."Bot:Id"..Chat_id)
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -20070,7 +20070,7 @@ bot_data:set(ban_id.."Lock:Games"..Chat_id,true)
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -20086,7 +20086,7 @@ bot_data:del(ban_id.."Lock:Games"..Chat_id)
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -20102,7 +20102,7 @@ bot_data:set(ban_id.."Added:Me"..Chat_id,true)
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -20118,7 +20118,7 @@ bot_data:del(ban_id.."Added:Me"..Chat_id)
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -20134,7 +20134,7 @@ bot_data:set(ban_id.."my_anamen:status"..Chat_id,true)
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -20150,7 +20150,7 @@ bot_data:del(ban_id.."my_anamen:status"..Chat_id)
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -20166,7 +20166,7 @@ bot_data:set(ban_id.." ban:zhrf_Bots"..msg.chat_id_,"open")
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -20182,7 +20182,7 @@ bot_data:del(ban_id.." ban:zhrf_Bots"..Chat_id)
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -20198,7 +20198,7 @@ bot_data:set(ban_id.."my_photo:status"..Chat_id,true)
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -20216,7 +20216,7 @@ bot_data:del(ban_id.."my_photo:status"..Chat_id)
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -20235,7 +20235,7 @@ bot_data:set(ban_id.."my_maryam:status"..Chat_id,true)
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -20251,7 +20251,7 @@ bot_data:del(ban_id.."my_maryam:status"..Chat_id)
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -20267,7 +20267,7 @@ bot_data:set(ban_id.."Link_Group:status"..Chat_id,true)
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -20283,7 +20283,7 @@ bot_data:del(ban_id.."Link_Group:status"..Chat_id)
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -20299,7 +20299,7 @@ bot_data:set(ban_id.."Cick:Me"..Chat_id,true)
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -20315,7 +20315,7 @@ bot_data:del(ban_id.."Cick:Me"..Chat_id)
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -20332,7 +20332,7 @@ bot_data:set(ban_id.."lock:Lock:Sexy"..msg.chat_id_,'del')
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -20348,7 +20348,7 @@ bot_data:del(ban_id.."lock:Lock:Sexy"..msg.chat_id_)
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -20364,7 +20364,7 @@ bot_data:set(ban_id.."lock:Fshar"..msg.chat_id_,'del')
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -20380,7 +20380,7 @@ bot_data:del(ban_id.."lock:Fshar"..msg.chat_id_)
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -20396,7 +20396,7 @@ bot_data:set(ban_id.."lock:Azag"..msg.chat_id_,'del')
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -20412,7 +20412,7 @@ bot_data:del(ban_id.."lock:Azag"..msg.chat_id_)
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -20428,7 +20428,7 @@ bot_data:set(ban_id.."lock:mahn"..msg.chat_id_,'del')
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -20444,7 +20444,7 @@ bot_data:del(ban_id.."lock:mahn"..msg.chat_id_)
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -20460,7 +20460,7 @@ bot_data:set(ban_id.."lock:text"..msg.chat_id_,'del')
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -20476,7 +20476,7 @@ bot_data:del(ban_id.."lock:text"..msg.chat_id_)
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -20492,7 +20492,7 @@ bot_data:set(ban_id.."lock:AddMempar"..msg.chat_id_,'del')
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -20508,7 +20508,7 @@ bot_data:del(ban_id.."lock:AddMempar"..msg.chat_id_)
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -20524,7 +20524,7 @@ bot_data:set(ban_id.."lock:Join"..msg.chat_id_,'del')
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -20540,7 +20540,7 @@ bot_data:del(ban_id.."lock:Join"..msg.chat_id_)
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -20556,7 +20556,7 @@ bot_data:set(ban_id.."lock:Bot:kick"..msg.chat_id_,'del')
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -20572,7 +20572,7 @@ bot_data:del(ban_id.."lock:Bot:kick"..msg.chat_id_)
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -20588,7 +20588,7 @@ bot_data:set(ban_id.."lock:tagservr"..msg.chat_id_,'del')
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -20604,7 +20604,7 @@ bot_data:del(ban_id.."lock:tagservr"..msg.chat_id_)
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -20620,7 +20620,7 @@ bot_data:set(ban_id.."lock:Link"..msg.chat_id_,'del')
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -20636,7 +20636,7 @@ bot_data:del(ban_id.."lock:Link"..msg.chat_id_)
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -20652,7 +20652,7 @@ bot_data:set(ban_id.."lockpin"..msg.chat_id_,'del')
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -20668,7 +20668,7 @@ bot_data:del(ban_id.."lockpin"..msg.chat_id_)
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -20684,7 +20684,7 @@ bot_data:set(ban_id.."lock:edit"..msg.chat_id_,'del')
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -20700,7 +20700,7 @@ bot_data:del(ban_id.."lock:edit"..msg.chat_id_)
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -20716,7 +20716,7 @@ bot_data:set(ban_id.."lock:Fars"..msg.chat_id_,'del')
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -20732,7 +20732,7 @@ bot_data:del(ban_id.."lock:Fars"..msg.chat_id_)
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -20748,7 +20748,7 @@ bot_data:set(ban_id.."lock:Engilsh"..msg.chat_id_,'del')
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -20764,7 +20764,7 @@ bot_data:del(ban_id.."lock:Engilsh"..msg.chat_id_)
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -20780,7 +20780,7 @@ bot_data:set(ban_id.."lock:inline"..msg.chat_id_,'del')
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -20796,7 +20796,7 @@ bot_data:del(ban_id.."lock:inline"..msg.chat_id_)
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -20812,7 +20812,7 @@ bot_data:set(ban_id.."lock_edit_med"..msg.chat_id_,'del')
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -20828,7 +20828,7 @@ bot_data:del(ban_id.."lock_edit_med"..msg.chat_id_)
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝙱𝙰𝙲𝙺', callback_data="/help8"},
+{text = 'Back', callback_data="/help8"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  

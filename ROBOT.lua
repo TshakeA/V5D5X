@@ -18854,7 +18854,7 @@ local Teext =[[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {{text = '• ًDev',url="t.me/DiiiVi"},{text = '• ʀᴏʙᴏᴛ', url="t.me/ggi55"}},
-{{text = '𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁𝚂 ',url="t.me/ggi55"}}, 
+{{text = 'لشراء نسخه السورس ',url="t.me/ggi55"}}, 
 {{text = 'Back', callback_data="/change-hhh"}},
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessagecaption?chat_id='..Chat_id..'&caption='..URL.escape(Teext)..'&message_id='..msg_idd..'&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -19279,7 +19279,7 @@ local Teext =[[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {{text = 'Source Dev¹',url="t.me/rnnni"},{text = 'Source Dev²', url="t.me/rnnni"}},
-{{text = '𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁𝚂',url="t.me/ggi55"}}, 
+{{text = 'لشراء نسخه السورس',url="t.me/ggi55"}}, 
 {{text = 'Back', callback_data="/HHH"}},
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessagecaption?chat_id='..Chat_id..'&caption='..URL.escape(Teext)..'&message_id='..msg_idd..'&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  

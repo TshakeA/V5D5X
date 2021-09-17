@@ -580,7 +580,7 @@ end
 function Reply_Status(msg,user_id,status,text)
 tdcli_function ({ID = "GetUser",user_id_ = user_id},function(arg,data) 
 if data.first_name_ ~= false then
-local UserName = (data.username_ or "errrrrrro")
+local UserName = (data.username_ or "rnnni")
 local NameUser = "•  من قبل ⇽ ["..data.first_name_.."](T.me/"..UserName..")"
 local NameUserr = "• اسم المستخدم ⇽ ["..data.first_name_.."](T.me/"..UserName..")"
 if status == "reply" then
@@ -1002,7 +1002,7 @@ send(msg.chat_id_, msg.id_,pre_msg)
 end
 
 --------------------------------------------------------------------------------------------------------------
-function errrrrrro(msg,data) -- بداية العمل
+function rnnni(msg,data) -- بداية العمل
 if msg then
 local text = msg.content_.text_
 --------------------------------------------------------------------------------------------------------------
@@ -4146,7 +4146,7 @@ keyboard.inline_keyboard = {
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/U_AFLAM/110&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
-------------------ძᥱ᥎. 𝘳ꪮ᥇ꪮ𝓽،---------------------
+------------------ძᥱo᥎. 𝘳ꪮ᥇ꪮ𝓽،---------------------
 if text == 'افلام' or text == 'الافلاام' or text == 'افلام عربيه' then
 local Text = [[
 - اختر نوع الافلام عزيزي
@@ -5135,7 +5135,7 @@ bot_data:sadd(ban_id..'GDRG:User', result.sender_user_id_)
 chat_kick(result.chat_id_, result.sender_user_id_)
 tdcli_function ({ID = "GetUser",user_id_ = result.sender_user_id_},
 function(arg,data) 
-usertext = '\n• العضو ⇽ ['..data.first_name_..'](t.me/'..(data.username_ or 'errrrrrro')..')'
+usertext = '\n• العضو ⇽ ['..data.first_name_..'](t.me/'..(data.username_ or 'rnnni')..')'
 status  = '\n• تم حظره عام من الجروبات \n√'
 send(msg.chat_id_, msg.id_, usertext..status)
 end,nil)
@@ -5189,7 +5189,7 @@ if result.id_ == tonumber(1099083018) then
 send(msg.chat_id_, msg.id_, " لا يمكنك حظر مبرمج السورس \n√")
 return false 
 end
-usertext = '\n• العضو ⇽ ['..result.title_..'](t.me/'..(username or 'errrrrrro')..')'
+usertext = '\n• العضو ⇽ ['..result.title_..'](t.me/'..(username or 'rnnni')..')'
 status  = '\n• تم حظره عام من الجروبات\n√ '
 texts = usertext..status
 bot_data:sadd(ban_id..'GDRG:User', result.id_)
@@ -5244,7 +5244,7 @@ end
 bot_data:sadd(ban_id..'GDRG:User', userid)
 tdcli_function ({ID = "GetUser",user_id_ = userid},function(arg,data) 
 if data.first_name_ then
-usertext = '\n• العضو ⇽ ['..data.first_name_..'](t.me/'..(data.username_ or 'errrrrrro')..')'
+usertext = '\n• العضو ⇽ ['..data.first_name_..'](t.me/'..(data.username_ or 'rnnni')..')'
 status  = '\n• تم حظره عام من الجروبات \n√'
 send(msg.chat_id_, msg.id_, usertext..status)
 else
@@ -5297,7 +5297,7 @@ end
 bot_data:sadd(ban_id..'Gmute:User', result.sender_user_id_)
 tdcli_function ({ID = "GetUser",user_id_ = result.sender_user_id_},
 function(arg,data) 
-usertext = '\n• العضو ⇽ ['..data.first_name_..'](t.me/'..(data.username_ or 'errrrrrro')..')'
+usertext = '\n• العضو ⇽ ['..data.first_name_..'](t.me/'..(data.username_ or 'rnnni')..')'
 status  = '\n• تم كتمه عام من الجروبات'
 send(msg.chat_id_, msg.id_, usertext..status)
 end,nil)
@@ -5351,7 +5351,7 @@ if bot_data:sismember(ban_id.."msa3d:ban", result.id_) then
 send(msg.chat_id_, msg.id_, "• لا تستطيع كتم مساعد عام\n√")
 return false 
 end
-usertext = '\n• العضو ⇽ ['..result.title_..'](t.me/'..(username or 'errrrrrro')..')'
+usertext = '\n• العضو ⇽ ['..result.title_..'](t.me/'..(username or 'rnnni')..')'
 status  = '\n• تم كتمه عام من الجروبات\n√'
 texts = usertext..status
 bot_data:sadd(ban_id..'Gmute:User', result.id_)
@@ -5406,7 +5406,7 @@ end
 bot_data:sadd(ban_id..'Gmute:User', userid)
 tdcli_function ({ID = "GetUser",user_id_ = userid},function(arg,data) 
 if data.first_name_ then
-usertext = '\n• العضو ⇽ ['..data.first_name_..'](t.me/'..(data.username_ or 'errrrrrro')..')'
+usertext = '\n• العضو ⇽ ['..data.first_name_..'](t.me/'..(data.username_ or 'rnnni')..')'
 status  = '\n• تم كتمه عام من الجروبات\n√'
 send(msg.chat_id_, msg.id_, usertext..status)
 else
@@ -5428,7 +5428,7 @@ return false
 end
 function start_function(extra, result, success)
 tdcli_function ({ID = "GetUser",user_id_ = result.sender_user_id_},function(arg,data) 
-usertext = '\n• العضو ⇽ ['..data.first_name_..'](t.me/'..(data.username_ or 'errrrrrro')..')'
+usertext = '\n• العضو ⇽ ['..data.first_name_..'](t.me/'..(data.username_ or 'rnnni')..')'
 status  = '\n• تم الغاء (الحظر-الكتم) عام من الجروبات'
 send(msg.chat_id_, msg.id_, usertext..status)
 end,nil)
@@ -5451,7 +5451,7 @@ return false
 end
 function start_function(extra, result, success)
 if result.id_ then
-usertext = '\n• العضو ⇽ ['..result.title_..'](t.me/'..(username or 'errrrrrro')..')'
+usertext = '\n• العضو ⇽ ['..result.title_..'](t.me/'..(username or 'rnnni')..')'
 status  = '\n• تم الغاء (الحظر-الكتم) عام من الجروبات'
 texts = usertext..status
 bot_data:srem(ban_id..'GDRG:User', result.id_)
@@ -5479,7 +5479,7 @@ bot_data:srem(ban_id..'GDRG:User', userid)
 bot_data:srem(ban_id..'Gmute:User', userid)
 tdcli_function ({ID = "GetUser",user_id_ = userid},function(arg,data) 
 if data.first_name_ then
-usertext = '\n• العضو ⇽ ['..data.first_name_..'](t.me/'..(data.username_ or 'errrrrrro')..')'
+usertext = '\n• العضو ⇽ ['..data.first_name_..'](t.me/'..(data.username_ or 'rnnni')..')'
 status  = '\n• تم الغاء (الحظر-الكتم) عام من الجروبات'
 send(msg.chat_id_, msg.id_, usertext..status)
 else
@@ -8239,7 +8239,7 @@ end
 if b.username_ then
 UserName = b.username_
 else
-UserName = 'errrrrrro'
+UserName = 'rnnni'
 end
 local Text = "• منشئ الجروب ⇽ ["..b.first_name_.."](tg://user?id="..b.id_..")\n"..getbio(b.id_):gsub('لايوجد','')
 local msg_id = msg.id_/2097152/0.5
@@ -8293,7 +8293,7 @@ end
 if b.username_ then
 UserName = b.username_
 else
-UserName = 'errrrrrro'
+UserName = 'rnnni'
 end
 local Text = "• منشئ الجروب ⇽ ["..b.first_name_.."](tg://user?id="..b.id_..")\n"..getbio(b.id_):gsub('لايوجد','')
 local msg_id = msg.id_/2097152/0.5
@@ -8723,7 +8723,7 @@ local name = json.result.first_name
 if json.result.username then
 username = json.result.username
 else
-username = 'errrrrrro'
+username = 'rnnni'
 end
 local Name = '- ᗞᎬv ñᗩmᎬ  '..name..'\n'
 keyboard = {} 
@@ -11052,7 +11052,7 @@ end
 function start_function(extra, result, success)
 bot_data:sadd(ban_id..'Zahf:User'..msg.chat_id_, result.sender_user_id_)
 tdcli_function ({ID = "GetUser",user_id_ = result.sender_user_id_},function(arg,data) 
-usertext = '\n ?? العضو ⇽ ['..data.first_name_..'](t.me/'..(data.username_ or 'errrrrrro')..')'
+usertext = '\n ?? العضو ⇽ ['..data.first_name_..'](t.me/'..(data.username_ or 'rnnni')..')'
 local statuss = '\n• تم رفع رقاصه في الجروب بنجاح\n• مبقتش شريفه لا اله الي الله\n √'
 send(msg.chat_id_, msg.id_, usertext..statuss)
 end,nil)
@@ -11074,7 +11074,7 @@ end
 function start_function(extra, result, success)
 bot_data:srem(ban_id..'Zahf:User'..msg.chat_id_, result.sender_user_id_)
 tdcli_function ({ID = "GetUser",user_id_ = result.sender_user_id_},function(arg,data) 
-usertext = '\n• العضو ⇽ ['..data.first_name_..'](t.me/'..(data.username_ or 'errrrrrro')..')'
+usertext = '\n• العضو ⇽ ['..data.first_name_..'](t.me/'..(data.username_ or 'rnnni')..')'
 status = '\n ?? تم تنزيل رقاصه من الجروب\n• بقت شريفه لا اله الي الله'
 send(msg.chat_id_, msg.id_, usertext..status)
 end,nil)
@@ -11121,7 +11121,7 @@ end
 function start_function(extra, result, success)
 bot_data:sadd(ban_id..'Jred:User'..msg.chat_id_, result.sender_user_id_)
 tdcli_function ({ID = "GetUser",user_id_ = result.sender_user_id_},function(arg,data) 
-usertext = '\n• العضو ⇽ ['..data.first_name_..'](t.me/'..(data.username_ or 'errrrrrro')..')'
+usertext = '\n• العضو ⇽ ['..data.first_name_..'](t.me/'..(data.username_ or 'rnnni')..')'
 local statuss = '\n• تم رفع العضو  علي زبك بنجاح\n• √ '
 send(msg.chat_id_, msg.id_, usertext..statuss)
 end,nil)
@@ -11143,7 +11143,7 @@ end
 function start_function(extra, result, success)
 bot_data:srem(ban_id..'Jred:User'..msg.chat_id_, result.sender_user_id_)
 tdcli_function ({ID = "GetUser",user_id_ = result.sender_user_id_},function(arg,data) 
-usertext = '\n• العضو ⇽ ['..data.first_name_..'](t.me/'..(data.username_ or 'errrrrrro')..')'
+usertext = '\n• العضو ⇽ ['..data.first_name_..'](t.me/'..(data.username_ or 'rnnni')..')'
 status = '\n• تم تنزيل العضو  من زبك\n• هيفضل متناك بردو'
 send(msg.chat_id_, msg.id_, usertext..status)
 end,nil)
@@ -14815,7 +14815,7 @@ tdcli_function ({ID = "GetUser",user_id_ = msg.sender_user_id_},function(extra,r
 if result.username_ then
 username = result.username_ 
 else
-username = 'errrrrrro'
+username = 'rnnni'
 end
 local msg_id = msg.id_/2097152/0.5  
 local textt = '  رتبتك ⤌ '..Rutba(msg.sender_user_id_,msg.chat_id_)
@@ -14865,7 +14865,7 @@ tdcli_function ({ID = "GetUser",user_id_ = msg.sender_user_id_},function(extra,r
 if result.username_ then
 username = result.username_ 
 else
-username = 'errrrrrro'
+username = 'rnnni'
 end
 local msg_id = msg.id_/2097152/0.5  
 local textt = ' 🥺 انت يا قلبي '..Rutba(msg.sender_user_id_,msg.chat_id_)
@@ -23055,7 +23055,7 @@ return false
 end    
 end   
 --------------------------------------------------------------------------------------------------------------
-errrrrrro(data.message_,data)
+rnnni(data.message_,data)
 plugin_ROBOT(data.message_)
 --------------------------------------------------------------------------------------------------------------
 if Chat_Type == 'GroupBot' and ChekAdd(msg.chat_id_) == true then

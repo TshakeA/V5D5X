@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 cd $HOME/ROBOT
-install() {
+install()
 rm -rf $HOME/.telegram-cli
 sudo apt-get update -y
 sudo apt-get upgrade -y

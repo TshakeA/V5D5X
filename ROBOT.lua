@@ -5730,7 +5730,7 @@ if result.status_.ID == "UserStatusRecently" and result.profile_photo_ ~= false 
 sendPhoto(msg.chat_id_, msg.id_, 0, 1, nil, ban.photos_[0].sizes_[1].photo_.persistent_id_,''..rdphoto..'\n• 🖤 | 𝑼𝑬𝑺 : '..username..' \n• 🖤 | 𝑴𝑺𝑮 : '..Msguser..' \n• 🖤 | 𝑺??𝑨 : '..Rutba(msg.sender_user_id_,msg.chat_id_)..'  \n• 🖤 | 𝑰𝑫 :  '..msg.sender_user_id_..' \n• 🖤 | b𝐼𝑂 : '..getbioY..' \n• 🖤 | 𝐶𝐻 : @rnnni \n')
 else 
 if result.status_.ID == "UserStatusEmpty" and result.profile_photo_ == false then
-send(msg.chat_id_, msg.id_,'[\n ¦✙ بيك عزيزي 『'..Name..'』 \n¦• 𝚄𝚂𝙴𝚁 ↝  『'..Name..'』    ↝💘\n¦• 𝙼𝚂𝙶𝚂↝ 『'..Msguser..'』.   ↝💘\n ¦• 𝚁𝙰𝙽𝙺↝ 『'..Rutba(msg.sender_user_id_,msg.chat_id_)..'』    ↝💘\n¦• 𝙸𝙳↝  『'..msg.sender_user_id_..'』    ↝💘\n¦• 𝒄𝒉↝   『@rnnni』 ↝🇧??\n')
+send(msg.chat_id_, msg.id_,'[\n ¦✙ بيك عزيزي 『'..Name..'』 \n¦• 𝚄??𝙴𝚁 ↝  『'..Name..'』    ↝💘\n¦• 𝙼𝚂𝙶𝚂↝ 『'..Msguser..'』.   ↝💘\n ¦• 𝚁𝙰𝙽𝙺↝ 『'..Rutba(msg.sender_user_id_,msg.chat_id_)..'』    ↝💘\n¦• 𝙸𝙳↝  『'..msg.sender_user_id_..'』    ↝💘\n¦• 𝒄𝒉↝   『@rnnni』 ↝🇧??\n')
 else
 send(msg.chat_id_, msg.id_, '\n• الصوره ⇽ ليس لديك صور في حسابك'..'[\n¦• 𝚄𝚂𝙴𝚁 ↝ 『'..username..'』\n¦• 𝙼𝚂𝙶𝚂↝ 『'..Msguser..'』\n¦• 𝙸𝙳↝  『'..msg.sender_user_id_..'』\n¦• 𝒄𝒉↝  『@rnnni』\n')
 end 
@@ -6138,7 +6138,7 @@ https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. ms
 end
 
 if text == "سورس" and not  bot_data:get(ban_id.."sing:for:me"..msg.chat_id_) then 
-ban = math.random(2,11); 
+ban = math.random(3,10); 
 local Text ='آهلاً بكم بسورس ديف. ' 
 keyboard = {}  
 keyboard.inline_keyboard = {
@@ -6147,11 +6147,11 @@ keyboard.inline_keyboard = {
 {{text = ' اضغط لاضافه البوت لمجمعتك• ' ,url="t.me/"..dofile("./Info.lua").botUserName.."?startgroup=start"}}, 
 }
 local msg_id = msg.id_/2097152/0.5 
-https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/jsjsbsud/'..ban..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/VsssH/'..ban..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 
 if text == "يا سورس" and not  bot_data:get(ban_id.."sing:for:me"..msg.chat_id_) then 
-ban = math.random(2,11); 
+ban = math.random(3,10); 
 local Text ='آهلاً بكم بسورس ديف. ' 
 keyboard = {}  
 keyboard.inline_keyboard = {
@@ -6160,11 +6160,11 @@ keyboard.inline_keyboard = {
 {{text = ' اضغط لاضافه البوت لمجمعتك• ' ,url="t.me/"..dofile("./Info.lua").botUserName.."?startgroup=start"}}, 
 }
 local msg_id = msg.id_/2097152/0.5 
-https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/jsjsbsud/'..ban..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/VsssH/'..ban..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 
 if text == "السورس" and not  bot_data:get(ban_id.."sing:for:me"..msg.chat_id_) then 
-ban = math.random(2,11); 
+ban = math.random(3,10); 
 local Text ='آهلاً بكم بسورس ديف. ' 
 keyboard = {}  
 keyboard.inline_keyboard = {
@@ -6173,11 +6173,11 @@ keyboard.inline_keyboard = {
 {{text = ' اضغط لاضافه البوت لمجمعتك• ' ,url="t.me/"..dofile("./Info.lua").botUserName.."?startgroup=start"}}, 
 }
 local msg_id = msg.id_/2097152/0.5 
-https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/jsjsbsud/'..ban..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/VsssH/'..ban..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 
 if text == "سورس جامد" and not  bot_data:get(ban_id.."sing:for:me"..msg.chat_id_) then 
-ban = math.random(2,11); 
+ban = math.random(3,10); 
 local Text ='آهلاً بكم بسورس ديف. ' 
 keyboard = {}  
 keyboard.inline_keyboard = {
@@ -6186,7 +6186,7 @@ keyboard.inline_keyboard = {
 {{text = ' اضغط لاضافه البوت لمجمعتك• ' ,url="t.me/"..dofile("./Info.lua").botUserName.."?startgroup=start"}}, 
 }
 local msg_id = msg.id_/2097152/0.5 
-https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/jsjsbsud/'..ban..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/VsssH/'..ban..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 
 if text == "روبت" and not  bot_data:get(ban_id.."sing:for:me"..msg.chat_id_) then 
@@ -15823,7 +15823,7 @@ Msᴀɢ ~ #msgs
 𖡋 𝐒𝐓𝐀 #stast 
 𖡋 𝐈𝐃 #id 
 𖡋 𝐄𝐃𝐈𝐓 #edit
-𖡋 𝗖𝗛 - 『@rnnni』• 
+?? 𝗖𝗛 - 『@rnnni』• 
 ]],
 [[
 𖤂 ~ 𝑢𝑠𝑒 #username  𖤐

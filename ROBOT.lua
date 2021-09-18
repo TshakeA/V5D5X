@@ -13042,7 +13042,7 @@ send(msg.chat_id_, msg.reply_to_message_id_, 'كـسـمـك لاجـل حزين
 send(msg.chat_id_, msg.reply_to_message_id_, 'كـسـمـك لاجـل مرات حزين❤') 
 send(msg.chat_id_, msg.reply_to_message_id_, 'كـسـمـك لاجـل بنات حزين❤') 
 send(msg.chat_id_, msg.reply_to_message_id_, 'كـسـمـك لاجـل يوسف❤') 
-send(msg.chat_id_, msg.reply_to_message_id_, 'كـسـمـك لاجـل المبرمج روبت❤') 
+send(msg.chat_id_, msg.reply_to_message_id_, 'كـسـمـك لاجـل المبرمج السورس❤') 
 send(msg.chat_id_, msg.reply_to_message_id_, 'كـسـمـك لاجـل انك اتهنت ❤') 
 send(msg.chat_id_, msg.reply_to_message_id_, 'كـسـمـك لاجـل زبي❤') 
 send(msg.chat_id_, msg.reply_to_message_id_, 'كـسـمـك لاجـل زبي❤') 
@@ -17108,7 +17108,7 @@ send(msg.chat_id_,msg.id_,'.\nـــــــــــــــــــــــــ
 else                
 local linkgpp = json:decode(https.request('https://api.telegram.org/bot'..token..'/exportChatInviteLink?chat_id='..msg.chat_id_))
 if linkgpp.ok == true then 
-linkgp = '• 🖤 |ＬＩＮＫ ＧＲＯＵＰ.\nـــــــــــــــــــــــــ\n ['..ta.title_..']('..linkgpp.result..')\nـــــــــــــــــــــــــ\n  ['..linkgpp.result..']'
+linkgp = '• 🖤 |Link Gruop\nـــــــــــــــــــــــــ\n ['..ta.title_..']('..linkgpp.result..')\nـــــــــــــــــــــــــ\n  ['..linkgpp.result..']'
 else
 linkgp = ' لا يوجد رابط ارسل ضع رابط'
 end  
@@ -17126,7 +17126,7 @@ end
 tdcli_function({ID ="GetChat",chat_id_=msg.chat_id_},function(arg,ta) 
 local linkgpp = json:decode(https.request('https://api.telegram.org/bot'..token..'/exportChatInviteLink?chat_id='..msg.chat_id_)) or bot_data:get(ban_id.."Private:Group:Link"..msg.chat_id_) 
 if linkgpp.ok == true then 
-local linkgp = '• 🖤 |ＬＩＮＫ ＧＲＯＵＰ.\nـــــــــــــــــــــــــ\n ['..ta.title_..']('..linkgpp.result..')\nـــــــــــــــــــــــــ\n  ['..linkgpp.result..']'
+local linkgp = '• 🖤 |Link Gruop\nـــــــــــــــــــــــــ\n ['..ta.title_..']('..linkgpp.result..')\nـــــــــــــــــــــــــ\n  ['..linkgpp.result..']'
 keyboard = {} 
 keyboard.inline_keyboard = {{{text = ta.title_, url=linkgpp.result}},}
 DeleteMessage(Chat_id,{[0] = Msg_id})  
@@ -17145,7 +17145,7 @@ end
 tdcli_function({ID ="GetChat",chat_id_=msg.chat_id_},function(arg,ta) 
 local linkgpp = json:decode(https.request('https://api.telegram.org/bot'..token..'/exportChatInviteLink?chat_id='..msg.chat_id_)) or bot_data:get(ban_id.."Private:Group:Link"..msg.chat_id_) 
 if linkgpp.ok == true then 
-local linkgp = '• 🖤 |ＬＩＮＫ ＧＲＯＵＰ.\nـــــــــــــــــــــــــ\n ['..ta.title_..']('..linkgpp.result..')\nـــــــــــــــــــــــــ\n  ['..linkgpp.result..']'
+local linkgp = '• 🖤 |Link Gruop\nـــــــــــــــــــــــــ\n ['..ta.title_..']('..linkgpp.result..')\nـــــــــــــــــــــــــ\n  ['..linkgpp.result..']'
 local inline = {{{text = ta.title_, url=linkgpp.result}},} 
 DeleteMessage(Chat_id,{[0] = Msg_id})  
 send_inline_key(msg.chat_id_,linkgp,nil,inline,msg.id_/2097152/0.5) 
@@ -18783,7 +18783,7 @@ local Teext =[[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text =  '𝚃. 𝚆𝙴𝚃𝚈',url="t.me/iiiziiii"},{text =  'ًDev ',url="t.me/DiiiVi"},
+{text =  'آرماندو. ',url="t.me/iiiziiii"},{text =  'ًDev ',url="t.me/DiiiVi"},
 },
 {
 {text =  'Armando | ☪︎',url="t.me/ggi55"},
@@ -18804,7 +18804,7 @@ local Teext =[[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text =  '𝚃. 𝚆𝙴𝚃𝚈',url="t.me/iiiziiii"},{text =  'ًDev ',url="t.me/DiiiVi"},
+{text =  'آرماندو. ',url="t.me/iiiziiii"},{text =  'ًDev ',url="t.me/DiiiVi"},
 },
 {
 {text = 'Armando | ☪︎', callback_data="/bnada-yquio3"}
@@ -18845,8 +18845,8 @@ end
 if Text == '/change-hklp' then
 local Teext =[[
  سعر التنصيب علي سورس ديف
- سعر التنصيب العادي 25ج
- سعر التنصيب المميز 35 ج
+ سعر التنصيب العادي﷼25
+ سعر التنصيب المميز 35 ﷼
 تواصل مع المطورين لتنصيب
 •━━━━ HiDar ━━━━•  
 
@@ -18869,7 +18869,7 @@ local Teext =[[
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = 'المبرمج روبت', url="t.me/ggi55"}},
+{{text = 'المبرمج السورس', url="t.me/ggi55"}},
 {{text = 'تواصل السورس',url="t.me/ggi55"}}, 
 {{text = 'Back', callback_data="/change-hhh"}},
 }

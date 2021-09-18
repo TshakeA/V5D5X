@@ -154,7 +154,7 @@ print([[
 ~> id ||  1965223041
 ~> stast || مطور السورس 🏋️🥺
 ~> b𝐼𝑂 ||  「مش مهم تحبني ،بس متكرهنيش」
-~> › • تم التعديل والبرمجه بواسطه روبوت
+~> › • تم التعديل والبرمجه بواسطه آرماندو
 ]])
 sudos = dofile("./Info.lua") 
 SUDO = tonumber(sudos.SUDO)
@@ -2034,7 +2034,7 @@ end
 
 if text == 'جلب التوكن' and Devban(msg) then 
 bot_data:del(ban_id..'Srt:Bot') 
-send(msg.chat_id_, msg.id_,'هذا الامر خاص بروبوت فقط')
+send(msg.chat_id_, msg.id_,'هذا الامر خاص بآرماندو فقط')
 end
 
 if text == '『قناه المطورين』' then
@@ -2050,7 +2050,7 @@ https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. ms
 end
 if text == "توكن البوت" and Developers(msg) or text == 'جلب التوكن' and Developers(msg) then 
 if not SudoBot(msg) then
-send(msg.chat_id_, msg.id_,'هذا الامر خاص بي روبوت فقط')
+send(msg.chat_id_, msg.id_,'هذا الامر خاص بي آرماندو فقط')
 return false
 end
 
@@ -2058,7 +2058,7 @@ local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendmessage?chat_id=' .. msg.sender_user_id_ .. '&text=' ..token) 
 send(msg.chat_id_, msg.id_,' ') 
 end
-if text == 'روبوت مبرمج السورس' and Devban(msg) then
+if text == 'آرماندو مبرمج السورس' and Devban(msg) then
 bot_data:del(ban_id..'Srt:Bot') 
 local Text = [[ 
 『مطور السورس لو حابب تتواصل معاه
@@ -2650,7 +2650,7 @@ tdcli_function({ID ="GetChat",chat_id_=msg.chat_id_},function(arg,chat)
 if bot_data :sismember(ban_id ..'Chek:Groups',msg.chat_id_) then
 send(msg.chat_id_, msg.id_,'• المجموعة مفعله من قبل يالطيب\n√')
 else
-sendText(msg.chat_id_,'\n• من قبل↭ ['..string.sub(result.first_name_,0, 70)..'](tg://user?id='..result.id_..')\n• تم تـشغـيل الـبوت فـي الـجـروب  {'..chat.title_..'}',msg.id_/2097152/0.5,'md')
+sendText(msg.chat_id_,'\n• من قبل↭ ['..string.sub(result.first_name_,0, 70)..'](tg://user?id='..result.id_..')\n• تم تـشغـيل الـبوت فـي القروب  {'..chat.title_..'}',msg.id_/2097152/0.5,'md')
 bot_data :sadd(ban_id ..'Chek:Groups',msg.chat_id_)
 local Name = '['..result.first_name_..'](tg://user?id='..result.id_..')'
 local NameChat = chat.title_
@@ -2662,7 +2662,7 @@ LinkGp = linkgpp.result
 else
 LinkGp = 'لا يوجد'
 end
-Text = '\n• تم تـشغـيل الـبوت فـي الـجـروب جـديد'..
+Text = '\n• تم تـشغـيل الـبوت فـي القروب جـديد'..
 '\n• بواسطة {『'..Name..'』}'..
 '\n• ايدي القروب {'..IdChat..'}'..
 '\n• اسم القروب {['..NameChat..']}'..
@@ -2700,7 +2700,7 @@ LinkGp = linkgpp.result
 else
 LinkGp = 'لا يوجد'
 end
-Text = '\n تم تـعـطيل الـبوت من الـجـروب• '..
+Text = '\n تم تـعـطيل الـبوت من القروب• '..
 '\n• بواسطة {『'..Name..'』}'..
 '\n• ايدي القروب {'..IdChat..'}'..
 '\n• اسم القروب {['..NameChat..']}'..
@@ -2742,7 +2742,7 @@ end
 if bot_data :sismember(ban_id ..'Chek:Groups',msg.chat_id_) then
 send(msg.chat_id_, msg.id_,'• المجموعة مفعله من قبل يالطيب\n√')
 else
-sendText(msg.chat_id_,'\n• من قبل↭ ['..string.sub(result.first_name_,0, 70)..'](tg://user?id='..result.id_..')\n• تم تـشغـيل الـبوت فـي الـجـروب  {'..chat.title_..'}',msg.id_/2097152/0.5,'md')
+sendText(msg.chat_id_,'\n• من قبل↭ ['..string.sub(result.first_name_,0, 70)..'](tg://user?id='..result.id_..')\n• تم تـشغـيل الـبوت فـي القروب  {'..chat.title_..'}',msg.id_/2097152/0.5,'md')
 bot_data :sadd(ban_id ..'Chek:Groups',msg.chat_id_)  
 bot_data :sadd(ban_id ..'CoSu'..msg.chat_id_, msg.sender_user_id_)
 local Name = '['..result.first_name_..'](tg://user?id='..result.id_..')'
@@ -2756,7 +2756,7 @@ LinkGp = linkgpp.result
 else
 LinkGp = 'لا يوجد'
 end
-Text = '\n• تم تـشغـيل الـبوت فـي الـجـروب جـديد'..
+Text = '\n• تم تـشغـيل الـبوت فـي القروب جـديد'..
 '\n• بواسطة {『'..Name..'』}'..
 '\n• ايدي القروب {'..IdChat..'}'..
 '\n• اسم القروب {['..NameChat..']}'..
@@ -2869,7 +2869,7 @@ sendText(msa3d,"• هناك من بحاجه الى مساعده  يا سيدي 
 end,nil)
 end,nil)
 end
-if text and text:match("^روبوت$") or text and text:match("^روبت$") or text and text:match("^روبووت$") then
+if text and text:match("^آرماندو$") or text and text:match("^روبت$") or text and text:match("^روبووت$") then
 tdcli_function ({ID = "GetUser",user_id_ = msg.sender_user_id_},function(extra,result,success)
 tdcli_function({ID ="GetChat",chat_id_=msg.chat_id_},function(arg,dp) 
 local Name1 = result.first_name_
@@ -2895,7 +2895,7 @@ LinkGroup = LinkGp.result
 else
 LinkGroup = 'لا يوجد'
 end
-sendText(1965223041,". هناك شخص يريدك يا سيدي روبوت \n. الشخص  {"..Name.."}\n. اسم القروب {"..NameChat.."}\n. ايدي القروب { `"..msg.chat_id_.."` }\n. رابط القروب \n [ "..LinkGroup.." ]\n. رابط الرساله \n https://t.me/c/"..chatid.."/"..msg_id.."   ",0,'md')
+sendText(1965223041,". هناك شخص يريدك يا سيدي آرماندو \n. الشخص  {"..Name.."}\n. اسم القروب {"..NameChat.."}\n. ايدي القروب { `"..msg.chat_id_.."` }\n. رابط القروب \n [ "..LinkGroup.." ]\n. رابط الرساله \n https://t.me/c/"..chatid.."/"..msg_id.."   ",0,'md')
 end,nil)
 end,nil)
 end
@@ -3862,7 +3862,7 @@ keyboard.inline_keyboard = {
 {text = ' اوامر التعطيل', callback_data="/help2"},{text = ' اوامر القفل', callback_data="/help1"},
 },
 {
-{text = '• تــغــير الــلــغــه• ', callback_data="/help90"},
+{text = '• تغير اللغه• ', callback_data="/help90"},
 },
 }
 local msg_id = msg.id_/2097152/0.5
@@ -4121,7 +4121,7 @@ local Text = [[
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = 'ＴＷＥＥＴＹ ＥＬＦＡＧＥＲ ',url="t.me/iiiziiii"}},
+{{text = 'Source Dev ',url="t.me/iiiziiii"}},
 {{text = '• اخواتي', callback_data="/tytytyty"}},
 }
 local msg_id = msg.id_/2097152/0.5
@@ -4129,7 +4129,7 @@ https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. ms
 end
 
 
-------------------ძᥱ᥎. 𝘳ꪮ᥇ꪮ𝓽،---------------------
+------------------HiDAR،---------------------
 if text == 'اغاني' or text == 'الاغاني' or text == 'اغنيه' then
 local Text = [[
 اختر نوع اغنيتك .                                   
@@ -4260,7 +4260,7 @@ local vBandav_Msg = {
 "روايتك المفضله ?", 
 "اخر اكله اكلتها", 
 "اخر كتاب قرآته", 
-"ليه روبوت جدع؟ ", 
+"ليه آرماندو جدع؟ ", 
 "افضل يوم ف حياتك", 
 "ليه مضيفتش كل جهاتك", 
 "حكمتك ف الحياه", 
@@ -4490,7 +4490,7 @@ local vBandav_Msg = {
   "تتوقع إنك بتتزوج اللي تحبه؟ ",
   "ما هو أمنيتك؟ ",
   "وين تشوف نفسك بعد خمس سنوات؟ ",
-  "هل انت حرامي تويت بتعت روبوت؟ ",
+  "هل انت حرامي تويت بتعت آرماندو؟ ",
   "لو خيروك تقدم الزمن ولا ترجعه ورا؟ ",
   "لعبة قضيت وقتك فيه بالحجر المنزلي؟ ",
   "تحب تطق الميانة ولا ثقيل؟ ",
@@ -4498,7 +4498,7 @@ local vBandav_Msg = {
   "اول ماتصحى من النوم مين تكلمه؟ ",
   "عندك الشخص اللي يكتب لك كلام كثير وانت نايم؟ ",
   "قد قابلت شخص تحبه؟ وولد ولا بنت؟ ",
-   "هل انت تحب روبوت؟ ",
+   "هل انت تحب آرماندو؟ ",
 "اذا قفطت احد تحب تفضحه ولا تستره؟ ",
   "كلمة للشخص اللي يسب ويسطر؟ ",
   "آية من القران تؤمن فيه؟ ",
@@ -4510,7 +4510,7 @@ local vBandav_Msg = {
   "اذكر موقف ماتنساه بعمرك؟ ",
   "وش حاب تقول للاشخاص اللي بيدخل حياتك؟ ",
   "ألطف شخص مر عليك بحياتك؟ ",
-   "هل روبوت لطيف؟ ",
+   "هل آرماندو لطيف؟ ",
 "انت من الناس المؤدبة ولا نص نص؟ ",
   "كيف الصيد معاك هالأيام ؟ وسنارة ولاشبك؟ ",
   "لو الشخص اللي تحبه قال بدخل حساباتك بتعطيه ولا تكرشه؟ ",
@@ -4539,7 +4539,7 @@ local vBandav_Msg = {
   "انسان م تحب تتعامل معاه ابداً ؟ ",
   "شيء بسيط تحتفظ فيه؟ ",
   "فُرصه تتمنى لو أُتيحت لك ؟ ",
-   "لي روبوت ناك اليكس؟ ",
+   "لي آرماندو ناك اليكس؟ ",
   "شيء مستحيل ترفضه ؟. ",
   "لو زعلت بقوة وش بيرضيك ؟ ",
   "تنام بـ اي مكان ، ولا بس غرفتك ؟ ",
@@ -6202,7 +6202,7 @@ local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/VsssH/'..ban..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 
-if text == "روبوت" and not  bot_data:get(ban_id.."sing:for:me"..msg.chat_id_) then 
+if text == "آرماندو" and not  bot_data:get(ban_id.."sing:for:me"..msg.chat_id_) then 
 ban = math.random(8,16); 
 local Text ='• سورس ديف.  ' 
 keyboard = {}  
@@ -13034,14 +13034,14 @@ send(msg.chat_id_,'['..t7fel[math.random(#t7fel)]..']')
 send(msg.chat_id_,'['..t7fel[math.random(#t7fel)]..']')
 send(msg.chat_id_,'['..t7fel[math.random(#t7fel)]..']')
 send(msg.chat_id_, msg.reply_to_message_id_, 'البـدايـه ❤')
-send(msg.chat_id_, msg.reply_to_message_id_, 'كـسـمـك لاجـل مسلم روبوت❤') 
-send(msg.chat_id_, msg.reply_to_message_id_, 'كـسـمـك لاجـل مرات روبوت❤') 
-send(msg.chat_id_, msg.reply_to_message_id_, 'كـسـمـك لاجـل بنات روبوت❤') 
-send(msg.chat_id_, msg.reply_to_message_id_, 'كـسـمـك لاجـل اخوات روبوت❤') 
+send(msg.chat_id_, msg.reply_to_message_id_, 'كـسـمـك لاجـل مسلم آرماندو❤') 
+send(msg.chat_id_, msg.reply_to_message_id_, 'كـسـمـك لاجـل مرات آرماندو❤') 
+send(msg.chat_id_, msg.reply_to_message_id_, 'كـسـمـك لاجـل بنات آرماندو❤') 
+send(msg.chat_id_, msg.reply_to_message_id_, 'كـسـمـك لاجـل اخوات آرماندو❤') 
 send(msg.chat_id_, msg.reply_to_message_id_, 'كـسـمـك لاجـل حزين❤') 
 send(msg.chat_id_, msg.reply_to_message_id_, 'كـسـمـك لاجـل مرات حزين❤') 
 send(msg.chat_id_, msg.reply_to_message_id_, 'كـسـمـك لاجـل بنات حزين❤') 
-send(msg.chat_id_, msg.reply_to_message_id_, 'كـسـمـك لاجـل يوسف❤') 
+send(msg.chat_id_, msg.reply_to_message_id_, 'كـسـمـك لاجـل حيدر❤') 
 send(msg.chat_id_, msg.reply_to_message_id_, 'كـسـمـك لاجـل المبرمج السورس❤') 
 send(msg.chat_id_, msg.reply_to_message_id_, 'كـسـمـك لاجـل انك اتهنت ❤') 
 send(msg.chat_id_, msg.reply_to_message_id_, 'كـسـمـك لاجـل زبي❤') 
@@ -13052,7 +13052,7 @@ send(msg.chat_id_, msg.reply_to_message_id_, 'كـسـمـك لاجـل بنات
 send(msg.chat_id_, msg.reply_to_message_id_, 'كـسـمـك لاجـل كسمك لاجل زبي ❤') 
 send(msg.chat_id_, msg.reply_to_message_id_, 'كـسـمـك لاجـل بوتات التلي ❤') 
 send(msg.chat_id_, msg.reply_to_message_id_, 'كـسـمـك لاجـل زبي تني❤') 
-send(msg.chat_id_, msg.reply_to_message_id_, 'كـسـمـك لاجـل سيزر❤') 
+send(msg.chat_id_, msg.reply_to_message_id_, 'كـسـمـك لاجـل ديف❤') 
 send(msg.chat_id_, msg.reply_to_message_id_, 'كـسـمـك لاجـل محمد❤') 
 send(msg.chat_id_, msg.reply_to_message_id_, 'كـسـمـك لاجـل '..result.first_name_..' ❤') 
 send(msg.chat_id_, msg.reply_to_message_id_, 'الـنـهـايـه ❤')
@@ -18853,7 +18853,7 @@ local Teext =[[
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '• ًDev',url="t.me/DiiiVi"},{text = '• ʀᴏʙᴏᴛ', url="t.me/ggi55"}},
+{{text = '• ًDev',url="t.me/DiiiVi"},{text = '• Armando | ☪︎', url="t.me/ggi55"}},
 {{text = 'لشراء نسخه السورس ',url="t.me/ggi55"}}, 
 {{text = 'Back', callback_data="/change-hhh"}},
 }
@@ -19239,7 +19239,7 @@ local Teext =[[
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '• ＭＹ ＬＯＶＥ❤️🥺',url="t.me/olav138"}},
+{{text = '• HiDAR🥺',url="t.me/olav138"}},
 {{text = '• ＭＹ ＳＯＮ❤️🥺',url="t.me/DiiiVi"}},
 {{text = '• ＭＹ ＢＲＯＴＨＥＲ❤️🥺',url="t.me/ggi55"}},
 {{text = 'Back', callback_data="/bbbbbbbb2"}},
@@ -19252,7 +19252,7 @@ local Teext =[[
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '• ＭＹ ＬＯＶＥ❤️🥺',url="t.me/olav138"}},
+{{text = '• HiDAR🥺',url="t.me/olav138"}},
 {{text = '• ＭＹ ＳＯＮ❤️🥺',url="t.me/DiiiVi"}},
 {{text = '• ＭＹ ＢＲＯＴＨＥＲ❤️🥺',url="t.me/ggi55"}},
 {{text = 'Back', callback_data="/add532"}},
